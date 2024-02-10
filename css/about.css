@@ -1,0 +1,37 @@
+.landing .container .card {
+  width: 95%;
+  padding: var(--marginPadding2);
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  background-color: var(--sec-color);
+  border-radius: 12px;
+  position: relative;
+  left: 50%;
+  translate: -50%;
+}
+.landing .container .card img {
+  min-width: 400px;
+  height: 320px;
+  border-radius: 12px;
+}
+.landing .container .card .text {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+.landing .container .card .text a {
+  font-weight: 500;
+}
+
+/* Media */
+@media (max-width: 767px) {
+  .landing .container .card img {
+    display: none;
+  }
+}
+@media (max-width: 356px) {
+  .landing .container .card .text {
+    text-align: center;
+  }
+}

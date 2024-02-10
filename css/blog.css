@@ -1,0 +1,39 @@
+.posts .container .cards {
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+  gap: 16px;
+}
+
+.posts .container .cards .card {
+  width: 95%;
+  max-width: 95%;
+  padding: var(--marginPadding2);
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 14px;
+  background-color: var(--sec-color);
+  border-radius: 12px;
+}
+.posts .container .cards .card .links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  align-self: end;
+}
+.posts .container .cards .card .links i {
+    font-size: 22px;
+    cursor: pointer;
+}
+.posts .container .cards .card .links button {
+  padding: 8px 14px;
+  color: var(--w-color);
+  background-color: var(--db-color);
+  border-radius: 8px;
+}
+
+i:hover {
+    color: var(--db-color);
+}

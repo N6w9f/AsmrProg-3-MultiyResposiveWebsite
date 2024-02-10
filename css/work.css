@@ -1,0 +1,21 @@
+/* Feature */
+.feature .container .head-title {
+  margin: var(--marginPaddingTB);
+}
+.feature .container .head-title h1 {
+  font-size: 46px;
+  font-weight: 700;
+}
+.feature .container .cards .card,
+.feature hr {
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  .container .cards {
+    padding: 12px;
+  }
+  .container .cards .card img {
+    display: none;
+  }
+}
